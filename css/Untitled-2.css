@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+ #num{
+	 position:static;
+	 }
+ 
+  #middle{
+	  width:100%; 
+	  background-color:#333;
+	  }  
+ div a{
+	  font-family:宋体;
+	  font-size:14px;
+	  color:#FFF
+	  }
+	  #ins{font-size:10px;}
+	  p{text-align:right;}
+		#suer{
+		  float:right;
+		  height:275px;
+		   width:247px;
+		  background-color:#CCC; 
+		  border:1px solid #FFF;
+			}
+			#obc{
+				width:1000px;
+				background-color:#CCC;
+				}
+				#obc td{ color:#000;}
+				#obc a{ color:#000;}
+	  hr{ background-color:#F00;}
+	  #font{
+		  float:left;
+		  height:275px;
+		   width:260px;
+		  background-color:#CCC; 
+		  border:1px solid #FFF; 
+		  }
+		  .date{float: right;}
+		  .lssty ul li{margin-top: 5px;}
+    h5{
+	  color:#F00;
+	  }
+	 #sa li{
+		  font-size:10px;
+		 }
+	#sa{
+		float:left;
+		border:1px solid #FFF;
+		 height:275px;
+		width:485px;
+		 background-color:#CCC;
+
+		}
+		#sa a{color:#000;font-size:10px;font-family:宋体;}
+		#sa a:hover {font-family: "宋体";color:#F00;}
+       *{
+            margin: 0;
+            padding: 0;
+        }
+        .pic{
+            list-style: none;
+            border: 0;
+        }
+        #box{
+            width: 1000px;
+            height:270px;
+            overflow: hidden;
+            margin: 2px auto;
+            border-radius:10px;
+        }
+        #box .pic li{
+            display: inline-block;
+        }
+		.dropdown{
+				overflow:hidden;
+				display:inline-block;
+			}
+			.dropdown a{
+				text-decoration:none;
+			}
+			.dropdown ul,.dropdown li{
+				list-style:none;
+				margin:0px;
+				padding:0px;
+				float:left;
+			}
+			.dropdown>ul>li>ul{
+				position:absolute;
+				display:none;
+			}
+			.dropdown>ul>li>ul>li{
+				float:none;
+			}
+			.dropdown>ul>li:hover ul{
+				display:block;
+			}
+			.dropdown>ul>li>a{
+				font-family:宋体;
+	            font-size:14px;
+				width:122px;
+				display:block;
+				line-height:40px;
+				color:#FFF;
+				text-align:center;
+				border-left:1px solid #333;
+			}
+			.dropdown>ul>li:first-child>a{
+				border-left:none;
+			}
+			.dropdown>ul>li>a:hover{
+				color:#f0f;
+				background-color:#bcf;
+			}
+			.dropdown>ul>li>ul>li>a{
+				width:120px;
+				display:block;
+				line-height:36px;
+				background-color:#999;
+				color:#FFF;
+				text-align:center;
+				border:1px solid #ccc;
+				border-top:none;
+			}
+			.dropdown>ul>li>ul>li:first-child>a{
+				border-top:1px solid #ccc;
+			}
+			.dropdown>ul>li>ul>li>a:hover{
+				color:#a4f;
+				background-color:#cdf;
+			}
+			.dropdown>ul>li>ul>li>a{
+				background-repeat:no-repeat;
+				background-position-x:23px;
+				background-position-y:13px;
+			}
+			        a
+        {
+            text-decoration: none;
+            /*去掉下划线*/
+        }
